@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --color-clifford: #da373d;
+      }
+    </style>
+    <title>Law website Tailwind CSS</title>
+</head>
+<body class="font-[poppins]">
+    <header class="max-w-7xl m-auto">
+        <!-- navber -->
+        <nav class="flex justify-evenly items-center mt-10 gap-[6rem]">
+            <img src="images/logo2.png" alt="">
+            <ul class="flex gap-[3rem] text-gray-500 text-sm">
+                <li><a href="">Home</a></li>
+                <li><a href="">Service</a></li>
+                <li><a href="">Cases></a></li>
+                <li><a href="">Blog></a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+            <button class="bg-stone-500 rounded-md text-white p-3 font-semibold">Free Consultation</button>
+        </nav>
+        <!-- banner -->
+        <div class="text-center mt-15 bg-[url(./images/banner.png)] rounded-lg max-w-6xl m-auto h-135 pt-40">
+            <h3 class="text-6xl font-bold text-white pb-5">
+                We Provide Effective<br>Legal Solutions
+            </h3>
+            <p class="text-white">
+               There are many variations of passages of Lorem Ipsum available, <br> but the majority have suffered alteration in some form, by injected humour. 
+            </p>
+            <div class="flex justify-center gap-[1rem] mt-6">
+                <input class="rounded-md border-gray-500 border-[0.1rem] px-3 py-1 w-xs bg-white" type="search" name="" id="" placeholder="Search here....">
+                <button class="bg-stone-500 rounded-md text-white px-3 py-2  font-semibold">Search</button>
+            </div>
+        </div>
+    </header>
+    <main class="max-w-6xl m-auto">
+        <div class="text-center mt-20">
+            <h4 class="font-bold text-2xl">The Legal Practice Area</h4>
+            <small class="text-gray">There are many variations of passages of Lorem Ipsum available, but the  majority <br> have suffered alteration in some form, by injected humour.</small>
+        </div>
+        <div class="grid grid-cols-3 mt-10 ml-5">
+            <div class="justify-items-center p-15 text-center h-100% w-100% border-gray-300 border-b-1">
+                <img class="mb-5" src="images/business.png" alt="">
+                <h5>Business Law</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet in totam eveniet, similique doloribus laboriosam?</p>
+                <img class="mt-5" src="images/Frame.png" alt="">
+            </div>
+            <div class="justify-items-center p-15 text-center h-100% w-100%  border-gray-300 border-l-1 border-r-1 border-t-1 border-b-1 bg-linear-to-bl from-violet-100 to-fuchsia-50">
+                <img class="mb-5" src="images/criminal.png" alt="">
+                <h5>Criminal Law</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione provident explicabo soluta aliquam vero quibusdam.</p>
+                <img class="mt-5" src="images/Frame.png" alt="">
+            </div>
+            <div class="justify-items-center p-15 text-center h-100% w-100% border-gray-300 border-b-1">
+                <img class="mb-5" src="images/child.png" alt="">
+                <h5>Child support</h5>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nulla, aliquid cumque illum sapiente harum!</p>
+                <img class="mt-5" src="images/Frame.png" alt="">
+            </div>
+            <div class="justify-items-center p-15 text-center h-100% w-100% ">
+                <img class="mb-5" src="images/education.png" alt="">
+                <h5>Education Law</h5>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod quis nesciunt quae ullam cum? Suscipit!</p>
+                <img class="mt-5" src="images/Frame.png" alt="">
+            </div>
+            <div class="justify-items-center p-15 text-center h-100% w-100% border-gray-300 border-l-1 border-r-1">
+                <img class="mb-5" src="images/divorce.png" alt="">
+                <h5>Divorce Law</h5>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero fuga facere enim rerum quod error?</p>
+                <img class="mt-5" src="images/Frame.png" alt="">
+            </div>
+            <div class="justify-items-center p-15 text-center h-100% w-100% ">
+                <img class="mb-5" src="images/tax.png" alt="">
+                <h5>Tax Law</h5>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab animi quos sequi fugit doloremque reprehenderit.</p>
+                <img class="mt-5" src="images/Frame.png" alt="">
+            </div>
+        </div>
+
+
+    </main>
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
